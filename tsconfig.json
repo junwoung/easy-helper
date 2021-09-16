@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "es",
+    "module": "ES2015",
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "declaration": true,
+    "noEmit": false,
+    "strict": true,
+    "jsx": "react",
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "lib": ["dom", "dom.iterable", "esnext"]
+  },
+  "include": ["src"],
+  "exclude": ["es", "lib", "node_modules"]
+}
