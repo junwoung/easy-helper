@@ -1,0 +1,8 @@
+node_modules
+scripts
+lib
+es
+templates
+*.tpl
+style/*.js
+.eslintrc.js
