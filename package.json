@@ -1,6 +1,6 @@
 {
   "name": "easyh",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a project for helping developer to handle some small things",
   "main": "index.js",
   "files": [
