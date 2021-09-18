@@ -3,6 +3,11 @@
   "version": "0.0.0",
   "description": "a project for helping developer to handle some small things",
   "main": "index.js",
+  "files": [
+    "es",
+    "lib",
+    "README.md"
+  ],
   "scripts": {
     "clean": "rm -rf es lib",
     "dev:es": "rm -rf es && tsc -w",
