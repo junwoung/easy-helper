@@ -1,12 +1,11 @@
 const generateTemplate = (componentName: string) => {
   const interfaceName = `${componentName}Props`;
 
-  return `
-import React from 'react';
+  return `import React from 'react';
 
 export interface ${interfaceName} {};
 
-export const ${componentName}: React.FC<${interfaceName}> {
+export const ${componentName}: React.FC<${interfaceName}> = () => {
   return <></>;
 }
   `;
